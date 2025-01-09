@@ -1,7 +1,7 @@
 let processes = JSON.parse(localStorage.getItem("processes")) || [];
 let chart;
 let currentPage = 1;
-const itemsPerPage = 5;
+const itemsPerPage = 3;
 const stepDetails = document.getElementById("stepDetails");
 
 // Add Process
